@@ -1,9 +1,9 @@
 Actors Hello World
 ------
 Akka 库可以通过非常简便大通过创建SBT项目添加，仅仅需要做的事编辑工程目录下的
-build.sbt文件
-> ###SBT是什么?
-> Simple Build Tool([SBT](http://www.scala-sbt.org)),Scala，Java或其他基于JVM语言的自动部署工具，类似于maven。接下来我们也将使用它来管理依赖和编译我们的可执行的程序。
+**build.sbt** 文件
+>  ###SBT是什么?
+Simple Build Tool([SBT](http://www.scala-sbt.org)), Scala, Java或其他基于JVM语言的自动部署工具，类似于maven。接下来我们也将使用它来管理依赖和编译我们的可执行的程序。
 
 ####build.sbt
 ```sbt
@@ -14,7 +14,7 @@ version := "1.0"
 scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.3.7"
+  "com.typesafe.akka" %% "akka-actor_2.10" % "2.3.7"
 )
 ```
 <!--more-->
