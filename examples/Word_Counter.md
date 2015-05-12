@@ -1,8 +1,8 @@
 Actors Word Count
 ----
-啥也不说了直接放嘛：
+啥也不说了直接放码：
 #####src/main/scala/WordCounterActor.scala
-```scala
+```
 object WordCounterActor {
   case object StartProcessFile
 }
@@ -63,7 +63,7 @@ class StringCounterActor extends Actor{
 ```
 #####src/main/scala/Main.scala
 ```scala
-import WordCounterActor._
+import WordCounterActor.
 import akka.actor.{ActorSystem, Props}
 import akka.dispatch.ExecutionContexts._
 import akka.pattern.ask
@@ -89,3 +89,9 @@ object Main extends App {
 
 }
 ```
+
+<script src="http://yandex.st/highlightjs/7.4/highlight.min.js"></script>
+<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/github.min.css">
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
